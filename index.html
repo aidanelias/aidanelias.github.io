@@ -1,0 +1,118 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero-section">
+  <div class="hero">
+    <div class="hero-img-box">
+      <img
+        src="/assets/images/aidan_elias.jpg"
+        class="hero-img"
+        alt="My profile picture"
+      />
+    </div>
+    <div class="hero-text-box">
+      <h3>Software engineer</h3>
+      <h1>Aidan Elias</h1>
+      <p>
+        As a dedicated software engineer at Capitec, I hold a BSc and BScHons
+        degree in computer science, bringing a solid foundation of theoretical
+        knowledge and practical skills to my role. Focused on delivering
+        innovative solutions, I leverage my academic background to contribute
+        effectively to Capitec's technological advancements and software
+        development initiatives. Committed to excellence, I continually strive
+        to enhance and apply my expertise in the dynamic and evolving field of
+        financial technology.
+      </p>
+      <a
+        href="/assets/cv/Aidan_Elias_-_Software_Engineer.pdf"
+        class="btn--outline"
+        download
+        >Download CV</a
+      >
+    </div>
+  </div>
+</section>
+<section class="technologies-section">
+  <h2>Technologies</h2>
+  <div class="grid">
+    {% for tech in site.data.technologies %}
+    <div class="technologies-card">
+      <img src="{{ tech.img }}" alt="{{ tech.name }}" />
+      <div class="technologies-card-text">
+        <h1>{{ tech.name }}</h1>
+        <p>{{ tech.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- <section class="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-info large-screen">
+    {% for testimonial in site.data.testimonials %}
+    <div class="testimonial-card">
+      <div>
+        <blockquote>
+          <p>{{ testimonial.testimonial }}</p>
+        </blockquote>
+        <h3>{{ testimonial.name }}</h3>
+        <h4>{{ testimonial.company }}</h4>
+        <img src="{{testimonial.img}}" alt="{{testimonial.name}}" />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="testimonial-info small-screen">
+    {% for testimonial in site.data.testimonials %}
+    <div class="testimonial-card carousel">
+      <div>
+        <blockquote>
+          <p>{{ testimonial.testimonial }}</p>
+        </blockquote>
+        <h3>{{ testimonial.name }}</h3>
+        <h4>{{ testimonial.company }}</h4>
+        <img src="{{testimonial.img}}" alt="{{testimonial.name}}" />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <button class="prev small-screen" onclick="plusSlides(-1)">❮</button>
+  <button class="next small-screen" onclick="plusSlides(1)">❯</button>
+</section> -->
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("carousel");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>

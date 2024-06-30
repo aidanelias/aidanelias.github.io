@@ -1,0 +1,14 @@
+- name: Matric Certificate
+  institution: Huguenot High School
+  year: 2016
+  description: I successfully completed my Matric Certificate with distinction. Subjects include Afrikaans HT, English HL, Mathematics, Information Technology, Physical Sciences, Accounting, Computer Application Technology, History, and Life Orientation.
+
+- name: BSc in Computer Science
+  institution: Stellenbosch University
+  year: 2017 - 2019
+  description: I successfully earned my BSc in Mathematical Science with a major in Computer Science, showcasing my dedication to mastering both theoretical and practical aspects of the field. This program has equipped me with valuable analytical and problem-solving skills.
+
+- name: BScHons in Computer Science
+  institution: Stellenbosch University
+  year: 2020
+  description: I am pleased to note the successful completion of my Bachelor of Science Honours in Computer Science with distinction, graduating cum laude. This accomplishment reflects my dedication to academic excellence and a deep understanding of computer science concepts. The program has honed my analytical and research skills, providing a strong foundation for contributing meaningfully to the field.

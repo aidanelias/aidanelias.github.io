@@ -1,0 +1,23 @@
+- name: Java
+  img: ./assets/images/icons/java.svg
+  description: Experienced in Java programming with a focus on developing scalable enterprise applications using the Spring Framework. Proficient in leveraging Spring's features, such as dependency injection and MVC architecture, to streamline development processes and enhance code maintainability.
+
+- name: Kubernetes
+  img: ./assets/images/icons/kubernetes.svg
+  description: Proficient in Kubernetes and Helm for orchestrating, with a focus on utilizing Helm for streamlined packaging and deployment of containerized applications. Additionally, adept at leveraging Rancher for efficient management and scaling within a distributed system, ensuring seamless operations in cloud-native environments.
+
+- name: Amazon Web Service
+  img: ./assets/images/icons/amazon-web-services.svg
+  description: Extensive experience working with AWS, including proficient utilization of DynamoDB and S3 for scalable and reliable data storage solutions. Demonstrated expertise in implementing infrastructure as code using Terraform, ensuring efficient provisioning and management of AWS resources for diverse projects.
+
+- name: Postgresql
+  img: ./assets/images/icons/postgres.svg"
+  description: Familiar with PostgreSQL, utilized it for basic relational database tasks, and managed routine database administration duties, including debugging data and ensuring data integrity. Applied practical skills in implementing and maintaining straightforward data storage solutions.
+
+- name: Kafka
+  img: ./assets/images/icons/kafka.svg
+  description: Proficiently incorporated Kafka into Java-based applications, leveraging Kafka's messaging capabilities to enable real-time data streaming. Additionally, employed Redpanda for message inspection, enhancing the debugging and monitoring processes in the Kafka messaging system.
+
+- name: Docker
+  img: ./assets/images/icons/docker.svg
+  description: Successfully integrated Docker containerization into a GitLab CI/CD pipeline, bolstering automation and efficiency in the software development lifecycle. Implemented Maven within the pipeline to manage dependencies and build processes, ensuring consistent and reproducible container builds for seamless deployment across various environments.

@@ -1,0 +1,78 @@
+---
+layout: default
+title: Resume
+---
+
+<h1 class="title">Resume</h1>
+<section class="education">
+  <h2>Education</h2>
+  <div class="timeline large-screen">
+    {% for education in site.data.education %}
+    <div class="timeline-item">
+      <h3 class="period">{{education.year}}</h3>
+      <span>{{education.institution}}</span>
+      <h3>{{education.name}}</h3>
+      <p>{{education.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="timeline small-screen">
+    {% for education in site.data.education %}
+    <div class="timeline-item">
+      <h3 class="period">{{education.year}}</h3>
+      <span>{{education.institution}}</span>
+      <h3>{{education.name}}</h3>
+      <p>{{education.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="experience">
+  <h2>Experience</h2>
+  <div class="timeline large-screen">
+    {% for xp in site.data.experience %}
+    <div class="timeline-item card">
+      <h3 class="period">{{xp.year}}</h3>
+      <span>{{xp.company}}</span>
+      <h3>{{xp.name}}</h3>
+      <p>{{xp.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="timeline small-screen">
+    {% for xp in site.data.experience %}
+    <div class="timeline-item card">
+      <h3 class="period">{{xp.year}}</h3>
+      <span>{{xp.company}}</span>
+      <h3>{{xp.name}}</h3>
+      <p>{{xp.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="awards">
+  <h2>Awards</h2>
+  <div class="timeline award large-screen">
+    {% for award in site.data.awards %}
+    <div class="timeline-item card">
+      <h3 class="period">{{award.year}}</h3>
+      <h3>{{award.name}}</h3>
+      <p>{{award.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="timeline award small-screen">
+    {% for award in site.data.awards %}
+    <div class="timeline-item card">
+      <h3 class="period">{{award.year}}</h3>
+      <h3>{{award.name}}</h3>
+      <p>{{award.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

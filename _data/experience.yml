@@ -1,0 +1,14 @@
+- name: Tutor / Mentor
+  company: Stellenbosch University
+  year: 2020
+  description: As a tutor, I guided students through a Computer Science course focused on Object-Oriented Programming principles. I facilitated understanding and practical application, honing my communication skills and reinforcing my commitment to fostering engaging learning experiences in Computer Science education.
+
+- name: Programmer (Junior Developer)
+  company: Capitec
+  year: Jan, 2021 - June, 2023
+  description: I began in technical support, investigating and debugging technical issues while completing operational tasks. Additionally, I wrote utility programs to enhance operational efficiency. Subsequently, I contributed to shaping the initial Capitec Connect infrastructure, utilizing technologies like DynamoDB, Spring Boot, Helm, Terraform, SNS & SQS.
+
+- name: Developer (Intermediate Developer)
+  company: Capitec
+  year: June, 2023 - Present
+  description: During my tenure as a developer, I continued to contribute to the evolution of Capitec Connect, refining its infrastructure. I worked with technologies such as S3 for scalable storage, Kafka for efficient real-time data streaming, and PostgreSQL for robust relational database management, deepening my expertise in these areas.

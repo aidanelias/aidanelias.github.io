@@ -1,0 +1,9 @@
+- name: Wisteria Ravenclaw
+  testimonial: If you do the job badly enough, sometimes you don't get asked to do it again.
+  company: Google Inc.
+  img: https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- name: Ursula Gurnmeister
+  testimonial: I'm killing time while I wait for life to shower me with meaning and happiness.
+  company: Facebook
+  img: https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

@@ -1,0 +1,55 @@
+@use "base";
+
+.projects {
+  margin: 2rem 2%;
+}
+
+.posts {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  @extend %card;
+  transition: 0.3s;
+
+  img {
+    padding: 0rem;
+    height: 75%;
+    width: 100%;
+  }
+
+  .project-info {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-weight: 400;
+    color: black;
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-weight: 300;
+    color: $primary-color;
+    padding-top: 1rem;
+  }
+
+  p {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+
+    color: $accent-dark;
+    font-weight: 300;
+  }
+}
+
+.post:active,
+.post:hover {
+  box-shadow: 0 0 10px 10px rgba(100, 100, 100, 0.2),
+    0 10px 10px 10px rgba(100, 100, 100, 0.19);
+}
